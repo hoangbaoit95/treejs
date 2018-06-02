@@ -10,7 +10,7 @@ module.exports = {
         key: '/d/ssh/treenode.pem',
         ref: 'origin/master',
         repo: 'git@github.com:hoangbaoit95/treejs.git',
-        path: '/home/ubuntu/treejs/',
+        path: '/home/ubuntu/treejs',
         'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
       }
     }
