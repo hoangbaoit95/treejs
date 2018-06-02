@@ -7,7 +7,7 @@ module.exports = {
       production: {
         user: 'ubuntu',
         host: 'ec2-34-228-142-229.compute-1.amazonaws.com',
-        key: '~/.ssh/treenode.pem',
+        key: '/d/ssh/treenode.pem',
         ref: 'origin/master',
         repo: 'git@github.com:hoangbaoit95/treejs.git',
         path: '/home/ubuntu/server',
