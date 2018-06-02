@@ -11,7 +11,7 @@ module.exports = {
         ref: 'origin/master',
         repo: 'git@github.com:hoangbaoit95/treejs.git',
         path: '/home/ubuntu/treejs',
-        'post-deploy': 'sudo nvm use node && sudo npm install && sudo pm2 startOrRestart ecosystem.config.js'
+        'post-deploy': 'npm install && sudo pm2 startOrRestart ecosystem.config.js'
       }
     }
 }
